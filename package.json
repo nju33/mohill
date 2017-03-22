@@ -1,6 +1,6 @@
 {
   "name": "mohill",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "💄 Hill-shaped modal elements",
   "main": "dist/mohill.umd.js",
   "jsnext:main": "dist/mohill.es.js",
