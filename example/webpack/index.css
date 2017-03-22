@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+body {
+  height: 100vh;
+  background: #f8f8f8;
+  margin: 0;
+  font: 14px / 1.5 Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+p {
+  display: inline-block;
+  margin: .3em;
+  letter-spacing: 5px;
+  color: #fff;
+  background: #fff;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button1 {
+  height: 2em;
+  width: 2em;
+  margin: 1em;
+  background: #0d5661;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#button2 {
+  height: 2em;
+  width: 2em;
+  margin: 1em;
+  background: #6d2e5b;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.page {
+  color: #fff;
+  text-align: center;
+}
+
+.page h1 {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #fff;
+}
+
+.page .close {
+  border: 1px solid #fff;
+  padding: .2em;
+  margin: 3em 15% 0;
+  cursor: pointer;
+  -webkit-transition: .2s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: .2s cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.page .close:hover {
+  background: rgba(255,255,255,.2);
+}
