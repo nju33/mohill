@@ -88,9 +88,5 @@
       }
     ]
   },
-  "dependencies": {
-    "hamsterjs": "^1.1.2",
-    "lodash": "^4.17.4",
-    "raf": "^3.3.0"
-  }
+  "dependencies": {}
 }
